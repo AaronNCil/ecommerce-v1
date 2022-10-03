@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/home.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
+      rel="stylesheet"
+    />
+    <title>Home Page</title>
+</head>
+<body onload="startUp()">
+  <header>
+    <nav> 
+    <div class="nav-bar">
+      <ul class = "top-container">
+          <li><a class="active" href="index.html">Home Page</a></li>
+          <li><a href="products.html">Products Page</a></li>
+          <li><a href="contact.html">Contact Page</a></li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+ 
+  <main>
+          <div class="page-title">
+            <h1>Immerse yourself in quality</h1>
+            <p>We strive to provide users with Hi-Quality digital art at an affordable price point.
+                Sound too good to be true? Click the Explore button and see for yourself!</p>
+            <a href="products.html" class="btn">Explore</a>
+        </div>
+        
+        <section>
+          <div class="col">
+            <img src="images/apple.jpg">
+            <img src="images/headphone3.jpg">
+            <img src="images/headphones.jpg">
+            <img src="images/headrunning.jpg">
+           </div>
+          </div>
+        </section> 
+        <section class="slide-container">
+          <h1>Our Headphones</h1>
+            <div class="image-container">
+                <img id="image1" class="slider-image" alt="slideImg1">
+            </div>
+            <div class="button-container">
+                <a class="slider-button" aria-label="btn1" onclick="chooseImage(0)"></a>
+                <a class="slider-button" aria-label="btn2" onclick="chooseImage(1)"></a>
+                <a class="slider-button" aria-label="btn3" onclick="chooseImage(2)"></a>
+            </div>
+        </section>
+        <section>
+          <div class="botton-modal">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam earum voluptates debitis ratione labore molestiae voluptate sit architecto, eligendi aspernatur accusamus sunt consectetur, atque consequatur nihil temporibus maiores. Soluta, consectetur.
+          </div>
+        <button class="btn">Shop Now!</button>
+      </section>
+    </div>
+</main>
+
+    <footer class="footer">
+      <div class="footer-body">
+        <div class="logo-container">
+           <a
+            href="index.html"
+          >
+             <img class="logo" src="images/logo.jpg" alt="logo-image"/>
+          </a>
+        </div>
+        <div class="socials">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"> 
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.tiktok.com/en/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-pinterest"></i>
+          </a>
+        </div>
+      </div>
+      <div class="copyright"><p>&copy; Aaron Cil 2022</p></div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

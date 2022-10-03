@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+    <link href="styles/contact.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
+      rel="stylesheet"
+    />
+    <title>Contact Page</title>
+</head>
+<body>
+  <header>
+    <nav> 
+    <div class="nav-bar">
+      <ul class = "top-container">
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="products.html">Products Page</a></li>
+          <li><a class="active" href="contact.html">Contact Page</a></li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+
+ <main>
+    <div class="container">
+      <h1 class="brand">Headphone Central</h1>
+      <div class="wrapper">
+        <div class="company-info">
+          <h3>Headphone Central</h3>
+          <ul>
+            <li>123 Sesame Street</li>
+            <li>(555)555-5555</li>
+            <li>redventrues@redventures.com</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h3>email us</h3>
+          <form>
+            <p>
+              <label>Name</label>
+              <input type="text" name="name" required>
+            </p>
+            <p>
+              <label>Company</label>
+              <input type="text" name="company" required>
+            </p>
+            <p>
+              <label>Email</label>
+              <input type="email" name="email" required>
+            </p>
+            <p>
+              <label>Phone Number</label>
+              <input type="phone" name="phone" required>
+            </p>
+            <p class="full">
+              <label>Message</label>
+              <textarea name="message" rows="5"></textarea>
+            </p>
+            <p class="full">
+              <button>Submit</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-body">
+      <div class="logo-container">
+         <a
+          href="index.html"
+        >
+           <img class="logo" src="images/logo.jpg" alt="logo-image"/>
+        </a>
+      </div>
+      <div class="socials">
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"> 
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.tiktok.com/en/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+    <div class="copyright"><p>&copy; Aaron Cil 2022</p></div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

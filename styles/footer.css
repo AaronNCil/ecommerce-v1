@@ -1,0 +1,39 @@
+.footer {
+    padding-bottom: 0;
+    margin-top: 20vh;
+    width: 100%;
+    background-color: #242121;
+    text-align: center;
+  }
+  
+  .footer-body {
+    padding: 2rem;
+    display: grid; 
+  /* makes two columns with the same size   */
+    align-items: center;
+  /* a way of aligning content in grid format   */
+    grid-template-columns: repeat(2, 1fr);}
+  
+  .footer i {
+    font-size: 50px;
+    margin-right: 1.5rem;
+    color: white;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: white;
+  }
+  
+  .copyright {
+    background: #fefefe;
+  }
+  
+  .logo {
+    border-radius: 50%;
+    width: 10%;
+    height: 65px;
+  }
