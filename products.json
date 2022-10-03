@@ -1,51 +1,75 @@
 [
     {
-       "image": "images/apple.jpg",
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    },
-    {
-       "name":"Airpod Pro Maxes",
-       "price":"$550"
-    }
+             "image": "images/prodimgresize1.png",
+             "name": "Airpod Pro Maxes",
+             "desc": "Noise cancellation headphones best quality with an even better style",
+             "price":"$550"
+          },
+          {
+              "image": "images/beatsresize2.png",
+              "name": "Beats Solo3",
+              "desc": "Noise cancellation headphones best quality with an even better style",
+              "price":"$131"
+          },
+          {
+              "image": "images/prodimgresize3.png",
+              "name": "Koss Prota Pro",
+              "desc": "Noise cancellation headphones best quality with an even better style",
+              "price":"$50"
+          },
+          {
+           "image": "images/prodimgresize4.png",
+           "name": "Steel Series Arctis 3",
+           "desc": "Noise cancellation headphones best quality with an even better style",
+           "price":"$70"
+          },
+          {
+           "image": "images/prodimgresize5.png",
+           "name": "Hyper X Cloud II",
+           "desc": "Noise cancellation headphones best quality with an even better style",
+           "price":"$70"
+          },
+          {
+           "image": "images/prodimgresize6.png",
+           "name": "Bose Quietcomfort",
+           "desc": "Noise cancellation headphones best quality with an even better style",
+           "price":"$229.00"
+          },
+          {
+           "image": "images/prodimgresize7.png",
+           "name": "Razer Kraken X",
+           "desc": "Noise cancellation headphones best quality with an even better style",
+           "price":"$550"
+          },
+          {
+           "image": "images/prodimgresize8.png",
+           "name": "Sony wh- 1000xm5",
+           "desc": "Noise cancellation headphones best quality with an even better style",
+           "price":"$400"
+          },
+          {
+           "image": "images/prodimgresize9.png",
+           "name": "JBL Tune 510BT ",
+           "desc": "Noise cancellation headphones best quality with an even better style",
+           "price":"50"
+          },
+          {
+           "image": "images/prodimgresize10.png",
+           "name": "Marshall Major IV",
+           "desc": "Noise cancellation headphones best quality with an even better style",
+           "price":"$107"
+          },
+          {
+           "image": "images/sen_1920x1080.webp",
+           "name": "Sennheiser Momentum 4 Wireless",
+           "desc": "Noise cancellation headphones best quality with an even better style",
+           "price":"$350"
+          },
+          {
+           "image": "images/prodimgresize12.png",
+           "name": "Bang & Olufsen Beoplay",
+           "desc": "Noise cancellation headphones best quality with an even better style",
+           "price":"$500"
+          }
 ]
+

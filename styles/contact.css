@@ -95,7 +95,7 @@ ul {
 
 /* Large Screens */
 
-@media(min-width: 700px){
+@media(min-width: 600px){
     .wrapper{
         display:grid;
         grid-template-columns: 1fr 2fr;
