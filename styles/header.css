@@ -1,12 +1,10 @@
 .nav-bar {
+    background-color: #f0f0f0;
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
-    position: relative;
-    background-color: #242121;;
+    top: 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 100%;
 }
 
 .top-container {
@@ -22,22 +20,27 @@
 }
 
 .top-container li a {
-    text-decoration: none;
-    color: white;
-    padding: 6px 15px;
-    border-radius: 30px;
-    border: 2px solid black;
+  color: black;
+  padding: 8px;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 4px;
 }
 
 .top-container li a:hover {
-    background-color: #004faa;
+    text-decoration-color: teal;
+    transition: text-decoration-color 0.3s;
 }
 
 .active {
-    background-color: #004faa;
+    text-decoration-color: teal;
 }
 
-@media (max-width: 600px) {
+#title {
+    margin-right: 50vw;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
    
     .navbar {
       flex-direction: column;
@@ -50,4 +53,12 @@
     nav li {
       margin: 0.8em 0;
     }
-}
+
+    #title {
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+    }
+} 
+
+

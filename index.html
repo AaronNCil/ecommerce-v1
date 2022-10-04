@@ -7,21 +7,21 @@
     <link href="styles/home.css" rel="stylesheet">
     <link href="styles/header.css" rel="stylesheet">
     <link href="styles/footer.css" rel="stylesheet">
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
-      rel="stylesheet"
-    />
+    <script src="https://kit.fontawesome.com/07118264b1.js" crossorigin="anonymous"></script>
+     <!-- tool kit to source all of my icons  -->
     <title>Home Page</title>
 </head>
 <body onload="startUp()">
+  <!-- function startup to load the images inside the image container -->
   <header>
     <nav> 
     <div class="nav-bar">
       <ul class = "top-container">
-          <li><a href="index.html"><i class="fa-shoppingcart"></i></a></li>
-          <li><a class="active" href="index.html">Home Page</a></li>
-          <li><a href="products.html">Products Page</a></li>
-          <li><a href="contact.html">Contact Page</a></li>
+          <li id="title"><a href="index.html"><i class="fa-solid fa-headphones-simple"> S w a v e s</i></a></li>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="cart"><a href="index.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
       </ul>
     </div>
   </nav>
@@ -30,12 +30,13 @@
   <main>
           <div class="page-title">
             <h1>Immerse yourself in quality</h1>
-            <p>We strive to provide users with Hi-Quality digital art at an affordable price point.
+            <p>We strive to provide our customers with Hi-Quality headphones at an affordable price point.
                 Sound too good to be true? Click the Explore button and see for yourself!</p>
-            <a href="products.html" class="btn">Explore</a>
+            <a href="products.html" id="btn">Explore</a>
         </div>
         
-        <section>
+        <section class="col">
+            <h1>Our Models</h1>
           <div class="col">
             <img src="images/apple.jpg">
             <img src="images/headphone3.jpg">
@@ -45,7 +46,7 @@
           </div>
         </section> 
         <section class="slide-container">
-          <h1>Our Headphones</h1>
+          <h1 class="slide-header">Our Headphones</h1>
             <div class="image-container">
                 <img id="image1" class="slider-image" alt="slideImg1">
             </div>
@@ -53,43 +54,30 @@
                 <a class="slider-button" aria-label="btn1" onclick="chooseImage(0)"></a>
                 <a class="slider-button" aria-label="btn2" onclick="chooseImage(1)"></a>
                 <a class="slider-button" aria-label="btn3" onclick="chooseImage(2)"></a>
+                <!-- the function chooseImage in javascript has a parameter that targets the array of images  -->
             </div>
         </section>
         <section class="bottom-container">
           <div class="botton-modal">
             Shop now to experince the best quality headphones.
           </div>
-        <a class="btn">Shop Now!</a>
+        <a class="btn" href="products.html">Shop Now!</a>
       </section>
     </div>
 </main>
 
-    <footer class="footer">
-      <div class="footer-body">
-        <div class="logo-container">
-           <a
-            href="index.html"
-          >
-             <img class="logo" src="images/logo.jpg" alt="logo-image"/>
-          </a>
-        </div>
-        <div class="socials">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"> 
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.tiktok.com/en/" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-tiktok"></i>
-          </a>
-          <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-pinterest"></i>
-          </a>
-        </div>
-      </div>
-      <div class="copyright"><p>&copy; Aaron Cil 2022</p></div>
-    </footer>
+<footer>
+  <div class="logo">
+    <a href="index.html"><i class="fa-solid fa-headphones-simple"></i></a>
+  </div>
+  <ul>
+    <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="linkedin"><i class="fab fa-linkedin"></i></a></li>
+    <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="facebook"><i class="fab fa-facebook-square"></i></a></li>
+    <li><a href="mailto:cilaaron27@gmail.com" target="_blank" rel="noopener" aria-label="email"><i class="fas fa-envelope-square"></i></a></li>
+  </ul>
+  <p class="copyright">Copyright &copy; 2021</p>
+</footer>
     <script src="app.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+ /* imported fonts and also reset the css page to fill in the whole screen */
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +7,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* targets the x axis of the website so that you cant scroll left or right */
 body,
 html {
 height: 100%;
 overflow-x: hidden;
 }
 
+/* max width helps with responsiveness  */
 .container {
     max-width:1170px;
     margin-left: auto;
@@ -29,19 +31,17 @@ ul {
     text-align:center;
 }
 
-/* .wrapper {
-    box-shadow: 0 0 20px 0 rbga(72, 94, 116, 0.7);
-} */
 .wrapper {
     box-shadow: 0 0 20px 0 black;
 }
 
+/* targeting everything in the wrapper to reset using the start  */
 .wrapper > * {
     padding: 1em;
 }
 
 .company-info {
-    background: #c9e6ff;
+    background-image: url(images/apple.jpg);
 }
 
 .company-info h3, .company-info ul {
@@ -50,7 +50,7 @@ ul {
 }
 
 .contact {
-    background-color:#f9feff;
+    background-color:  #f0f0f0;
 }
 
 /* Form Styles */
@@ -76,12 +76,12 @@ ul {
 .contact form button, .contact form input, .contact form textarea {
     width: 100%;
     padding: 1em;
-    border: 1px solid #c9e6ff;
+    border: 1px solid black;
 }
 
 .contact form button {
-    background: #c9e6ff;
-    border:0;
+    background:  #f0f0f0;
+    border: 1px solid black;
     text-transform: uppercase;
 }
 

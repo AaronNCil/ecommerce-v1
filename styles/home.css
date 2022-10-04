@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+ /* imported fonts and also reset the css page to fill in the whole screen */
 * {
   margin: 0;
   padding: 0;
@@ -49,9 +49,10 @@ overflow-x: hidden;
 }
 .slider-button {
   display: inline-block;
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
   border-radius: 5px;
+  padding: 10px;
   background-color: black;
 }
 
@@ -68,10 +69,13 @@ overflow-x: hidden;
   line-height: 60px;
   margin: 25px;
   margin-left: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
 /* IMAGES STYLING */
+
 
 .col {
   display:flex;
@@ -79,14 +83,18 @@ overflow-x: hidden;
   justify-content: center;
   min-width: 300px;
   padding-top: 10px;
+  margin-top: 10px;
 }
 
 .col img {
   width: 35%;
-  border: 2px solid black;
+  border: 1px solid black;
+  
 }
 
-
+.slide-header {
+  margin-bottom: 5vh;
+}
 /* Button Styling */
 
 .bottom-container {
@@ -94,18 +102,40 @@ overflow-x: hidden;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 80px;
+  background-color: #242121;
+  color: white;
+  width: 100%;
+  text-align: center;
 }
 
 .btn {
-  border: 2px solid black;
-  color: black;
+  border: 2px solid white;
+  color: white;
   padding: 6px 15px;
   border-radius: 30px;
   margin-top: 1em;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .btn:hover {
+  background: teal;
+  color: white;
+}
+
+#btn {
+  border: 2px solid black;
+  color: black;
+  padding: 6px 15px;
+  border-radius: 30px;
+  margin-top: 1.5em;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#btn:hover {
   background: teal;
   color: white;
 }
