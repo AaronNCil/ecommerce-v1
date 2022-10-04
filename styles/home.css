@@ -35,7 +35,7 @@ overflow-x: hidden;
   position: relative;
 } 
 
-.slider-image {
+#image1 {
   float: left;
   margin: 0px;
   padding: 0px;
@@ -43,10 +43,12 @@ overflow-x: hidden;
   max-height: 600px;
   border-radius: 15px;
 }
+
 .button-container {
   top: -100px;
   position: relative;
 }
+
 .slider-button {
   display: inline-block;
   height: 15px;
@@ -68,7 +70,6 @@ overflow-x: hidden;
   font-size: 50px;
   line-height: 60px;
   margin: 25px;
-  margin-left: 75px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -139,3 +140,16 @@ overflow-x: hidden;
   background: teal;
   color: white;
 }
+
+@media (max-width: 768px) {
+   
+ .slide-container {
+  display: none;
+ }
+
+ .page-title {
+  text-align: center;
+ }
+
+} 
+
