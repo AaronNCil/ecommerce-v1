@@ -58,12 +58,18 @@ overflow-x: hidden;
   background-color: black;
 }
 
+.wrapper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .page-title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-
+  width: 50vw;
+  text-align: center;
 }
 
 .page-title h1{

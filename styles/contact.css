@@ -40,10 +40,6 @@ ul {
     padding: 1em;
 }
 
-.company-info {
-    background-image: url(images/apple.jpg);
-}
-
 .company-info h3, .company-info ul {
     text-align: center;
     margin:0 0 1rem 0;
