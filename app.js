@@ -61,3 +61,22 @@ function startUp() {
 function chooseImage(imageIndex) {
   document.getElementById('image1').src = images[imageIndex].imageUrl;
 }
+
+
+// search bar products page
+
+function searchProduct() {
+  let input = document.getElementById('searchBar').value // takes input from searchbar
+  input=input.toLowerCase();
+  let x = document.getElementsByClassName('card-title'); // grabs everything with product-item class and stores it in a array.
+  let y = document.getElementsByClassName('card');
+
+  for (i = 0; i < x.length; i++) {   // loops through product-item's to search.
+      if (!x[i].innerHTML.toLowerCase().includes(input)) { // while loop runs, it runs through every object with the product-item class and
+          y[i].style.display="none";                       // if it includes the input it will display as block, if it does not it will display as none
+      }
+      else {
+          y[i].style.display="block";
+      }
+  }
+}

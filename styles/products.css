@@ -63,6 +63,26 @@ label {
     text-align: center;
 }
 
+.search-container{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  max-width:95vw;
+  margin-top: 30px;
+}
+
+.searchLabel {
+  padding: 10px;
+}
+
+#searchBar {
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 0.5rem;
+  width: auto;
+}
+
 .btn-2:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     cursor: pointer;
