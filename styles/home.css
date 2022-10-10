@@ -150,9 +150,29 @@ overflow-x: hidden;
 
 @media (max-width: 768px) {
    
- .slide-container {
-  display: none;
- }
+  .slide-container {
+    max-width: 75vw;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 100px;
+  }
+  #image1 {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    max-width: 75vw;
+    max-height: 100vh;
+    border-radius: 15px;
+  }
+
+  .button-container {
+    top: -400px;
+    position: relative;
+  }
+  
 
  .page-title {
   text-align: center;
