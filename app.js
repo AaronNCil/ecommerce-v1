@@ -57,7 +57,7 @@ function startUp() {
   document.getElementById('image1').src = images[0].imageUrl;
 }
 
-//the function for the image slider thats targeted in my html with different imageindex's
+// the function for the image slider thats targeted in my html with different imageindex's
 function chooseImage(imageIndex) {
   document.getElementById('image1').src = images[imageIndex].imageUrl;
 }
